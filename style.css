@@ -3,6 +3,7 @@ body {
     background: rgb(211, 187, 224);
     margin: 20px;
     font-family: "Comfortaa", sans-serif;
+    margin-bottom: 100;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
     font-style: italic;
     color: rgb(255, 255, 255);
 }
+
 
 .chamada {
     background: rgb(183, 158, 212);
@@ -62,5 +64,33 @@ img {
 }
 
 .categoria h2 {
+  color:rgb(157, 114, 185)
+}
+
+
+
+
+.categoria2-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.categoria2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoria2-videos img {
+    opacity: 0,5;
+    height: 200px;
+}
+
+.categoria2-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(134, 28, 167);
+}
+
+.categoria2 h3 {
   color:rgb(157, 114, 185)
 }
